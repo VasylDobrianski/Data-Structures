@@ -1,4 +1,4 @@
-package MergeTwoSortedLL;
+package PrintMiddleLL.MergeTwoSortedLL;
 
 public class ListNode {
     int val;

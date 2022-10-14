@@ -1,4 +1,4 @@
-package MergeTwoSortedLL;
+package PrintMiddleLL.MergeTwoSortedLL;
 
 public class Solution {
     public ListNode mergeTwoLists(ListNode curr1, ListNode curr2) {
