@@ -10,7 +10,7 @@ public class MyQueue<T> {
         return (T) front.value;
     }
 
-    void enqueue(T item){
+    void enqueue(T item){ //add
         QNode<T> node = new QNode<>(item);
         if (isEmpty()) front=back=node;
         else {
@@ -20,7 +20,7 @@ public class MyQueue<T> {
         size++;
     }
 
-    T dequeue(){
+    T dequeue(){ //remove
         QNode frontNode;
         if (isEmpty()) throw new NoSuchElementException();
         if (front==back){
